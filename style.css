@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.margin-left{
+    margin-left: 10px;
+}
+.no-strong{
+    font-weight: normal;
+}
+
+.navbar{
+    background-color: #435c7b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .navbar-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger{
+    font-size: 16px;
+    background-color: #DB3747;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: .3s;
+    color: #fff;
+}
+.btn-danger:hover{
+    background-color: #ac2925;
+}
+
+.btn-success{
+    font-size: 16px;
+    background-color: #28A645;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: .3s;
+    color: #fff;
+}
+
+.btn-success:hover{
+    background-color: #398439;
+}
+
+.div-table{
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+.table thead{
+    background-color: #f9f9f9;
+}
+
+.table thead th{
+    padding: 20px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #bababa;
+}
+
+.table tbody{
+    background-color: #fff;
+
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr td{
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+
+}
+
+.table tbody tr td button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.red-text{
+    color: #DB3747;
+}
+.yellow-text{
+    color: #ffc107;
+}
+
+.table tbody tr td button img{
+    width: 30px;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+

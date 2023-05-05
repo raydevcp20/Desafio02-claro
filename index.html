@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <title>Desafio 02 - Copilot</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <h1 class="no-strong">Manage <strong>Employees</strong></h1>
+            <div class="navbar-buttons">
+                <button class="btn-danger">
+                    <i class="bi bi-dash-circle"></i> Deletar
+                </button>
+                <button class="btn-success margin-left">
+                    <i class="bi bi-plus-circle"></i> Adicionar
+                </button>
+            </div>
+        </nav>
+
+        <div class="div-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" />
+                        </th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Endereço</th>
+                        <th>Fone</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="body-table">
+                    <!-- <tr>
+                        <td>
+                            <input type="checkbox" />
+                        </td>
+                        <td>Nome</td>
+                        <td>Email</td>
+                        <td>Endereço</td>
+                        <td>Fone</td>
+                        <td class="actions">
+                            <button class="yellow-text">
+                                <i class="bi bi-pencil-fill"></i>
+                            </button>
+                            <button class="red-text margin-left">
+                                <i class="bi bi-trash-fill"></i>
+                            </button>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>
