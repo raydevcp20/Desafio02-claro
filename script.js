@@ -72,7 +72,7 @@ function editEmployee(index){
     document.getElementById("btn-save").setAttribute("onclick", `saveEmployee(${index})`);
 }
 
-function saveEmployee(){
+function saveEmployee(index){
     let employee;
 
     employee.nome = document.getElementById("nome").value;
@@ -80,7 +80,8 @@ function saveEmployee(){
     employee.endereco = document.getElementById("endereco").value;
     employee.fone = document.getElementById("fone").value;
 
-    employees.push(employee);
+    employees[index] = employee;
+    // employees.push(employee);
 
     generateBodyOfTable();
 }
